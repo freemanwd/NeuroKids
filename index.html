@@ -121,7 +121,7 @@
         <li><b>CSF baseline (no AI).</b> Brain is found per slice as the largest soft-tissue region inside bone; voxels at −5…16 HU more than 3 mm inside the brain edge are grouped in 3D and the central components are kept. Expect it to include some cisternal CSF and to miss slit-like ventricles.</li>
         <li><b>Measure.</b> Ventricular volume = voxel count × voxel volume. The agreement between the two masks is shown as a Dice coefficient.</li>
       </ol>
-      <p><b>Bring your own weights.</b> No trained weights for the published model are public. Train on your labelled scans with <code>tools/train.py</code>, export with <code>tools/export_onnx.py</code>, then use <em>Load .onnx</em> or add the file to <code>lib/models.js</code>. See the <a href="https://github.com/freemanwd/NeuroKids#readme">README</a>.</p>
+      <p><b>Bring your own weights.</b> No trained weights for the published model are public. Train on your labelled scans with <code>tools/train.py</code>, export with <code>tools/export_onnx.py</code>, then use <em>Load .onnx</em> or add the file to <code>lib/models.js</code>. See the <a href="https://github.com/freemanwd/sahvai/tree/main/neurokids#readme">README</a>.</p>
     </details>
   </section>
 
@@ -135,7 +135,7 @@
     <p>Inspired by <a href="https://neurokids.org/">NeuroKids.org</a> and Drs Giselle Coelho and Benjamin Warf.</p>
     <p>Segmentation pipeline: Klimont M, Flieger M, Rzeszutek J, et al. <a href="https://doi.org/10.1155/2019/3059170">Automated ventricular system segmentation in paediatric patients treated for hydrocephalus using deep learning methods</a>. BioMed Res Int 2019; code at <a href="https://github.com/fast-radiology/hydrocephalus">fast-radiology/hydrocephalus</a> (MIT).
       DICOM engine and browser runtime adapted from <a href="https://github.com/jarrelscy/radar-web">jarrelscy/radar-web</a> (CC BY-NC-SA 4.0); RADAR model card at <a href="https://huggingface.co/jarrelscy/radar-onnx">jarrelscy/radar-onnx</a>.
-      NeuroKids is released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. <a href="https://github.com/freemanwd/NeuroKids">Source</a>.</p>
+      NeuroKids is released under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. <a href="https://github.com/freemanwd/sahvai/tree/main/neurokids">Source</a>. Part of <a href="../neurokids-research/">NeuroKids Research</a>.</p>
   </footer>
 </main>
 <script type="module" src="app.js"></script>
