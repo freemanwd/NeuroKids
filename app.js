@@ -169,7 +169,7 @@ $('dlJson').onclick = () => {
   const { V, stats, info } = R;
   const out = {
     disclaimer: 'Research use only. Not a medical device and not for diagnosis or treatment decisions.',
-    tool: 'NeuroKids (https://freemanwd.github.io/sahvai/neurokids/)', model: R.model,
+    tool: 'NeuroKids (https://freemanwd.github.io/NeuroKids/)', model: R.model,
     ai_ventricular_volume_ml: stats.ai_ml === undefined ? null : +stats.ai_ml.toFixed(2),
     csf_baseline_volume_ml: stats.csf_ml === undefined ? null : +stats.csf_ml.toFixed(2),
     dice_ai_vs_baseline: stats.dice_ai_vs_csf === undefined ? null : +stats.dice_ai_vs_csf.toFixed(4),

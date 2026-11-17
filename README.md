@@ -1,6 +1,8 @@
 # NeuroKids
 
-**https://freemanwd.github.io/sahvai/neurokids/**
+**https://freemanwd.github.io/NeuroKids/**
+
+Part of [NeuroKids Research](https://freemanwd.github.io/sahvai/neurokids-research/). A mirror also runs at https://freemanwd.github.io/sahvai/neurokids/.
 
 Ventricular system segmentation for **paediatric hydrocephalus** on head CT, running entirely in the browser.
 Drop in a DICOM study (folder, zip or loose files) or a NIfTI volume. NeuroKids picks the axial head series, segments the ventricles slice by slice, reports the ventricular volume, and lets you scroll through the masks and download them.
