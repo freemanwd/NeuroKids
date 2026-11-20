@@ -101,7 +101,17 @@
         <div id="sliceInfo" class="sliceinfo"></div>
       </aside>
     </div>
+    <div class="export-bar" role="toolbar" aria-label="Export">
+      <button class="export-btn btn-md" id="exMd">&#x1f4dd; Export Markdown</button>
+      <button class="export-btn btn-txt" id="exTxt">&#x1f4c4; Export Text</button>
+      <button class="export-btn btn-pdf" id="exPdf">&#x1f4d5; Export PDF</button>
+      <button class="export-btn btn-png" id="exPng">&#x1f5bc; Export PNG</button>
+      <button class="export-btn btn-rx" id="exRx" title="Add these measurements to your site's de-identified research dataset">&#x1f52c; Research export</button>
+    </div>
+    <p class="hint exhint">Reports use the slice shown in the viewer. They hold measurements and scan geometry only, no names or dates.</p>
+    <div id="researchHost"></div>
     <div class="dl">
+      <span class="dl-label">Data files</span>
       <button class="btn small" id="dlCsv">Per-slice areas (CSV)</button>
       <button class="btn small" id="dlAi">AI mask (.nii.gz)</button>
       <button class="btn small" id="dlCsf">Baseline mask (.nii.gz)</button>
